@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Home</h1>
+
+<div class='container'>
+    <div class="literature">
+        <a href="{% url 'literature' %}">
+            <h2>Literature</h2>
+            <img src="#" alt="">
+        </a>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto pariatur ut minus.</p>
+    </div>
+    <div class="Tasks">
+        <a href="{% url 'tasks' %}">
+            <img src="#" alt="">
+            <h2>Tasks</h2>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe officia dolore.</p>
+    </div>
+    <div class="courses">
+        <a href="#">
+            <img src="#" alt="">
+        <h2>Online Courses</h2>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos unde minus laudantium?</p>
+    </div>
+    <div class="3D_models">
+        <a href="#">
+            <img src="#" alt="">
+            <h2>3D Models</h2>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quod delectus praesentium!</p>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Sci Work</h1>
+    <div class="scientific">
+        <a href="">
+            <img src="https://www.shutterstock.com/image-vector/no-image-available-icon-template-260nw-1036735678.jpg" alt="">
+        </a>
+        <h3>Scientific Work</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, temporibus.</p>
+    </div>
+
+    <div class="3d-printing">
+        <a href="https://xn--3--8kco5agu2f.xn--p1ai/">
+            <img src="https://www.shutterstock.com/image-vector/no-image-available-icon-template-260nw-1036735678.jpg" alt="">
+        </a>
+        <h3>School of 3D Printing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, temporibus.</p>
+    
+    </div>
+
+    <div class="dpt-lab">
+        <a href="https://3d-laboratory.ru/">
+            <img src="https://www.shutterstock.com/image-vector/no-image-available-icon-template-260nw-1036735678.jpg" alt="">
+        </a>
+        <h3>Department Laboratory</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, temporibus.</p>
+    </div>
+    
+</div>
+
+
+
+{% endblock content %}

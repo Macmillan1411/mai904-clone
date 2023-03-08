@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAI-904</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="{% url 'home' %}">Student</a>
+            <a href="#">Scientific Activities</a>
+            <a href="{% url 'teacher_list' %}">Teachers</a>
+            <a href="#">Schedule</a>
+        </div>
+    </nav>
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>

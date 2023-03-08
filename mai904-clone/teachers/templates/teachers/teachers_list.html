@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Teachers List</h1>
+
+    {% for teacher in teacher_list %}
+        <div>
+            <img src="{{teacher.image}}" alt="" width='300' height='300'>
+            <h3>{{teacher.fname}} {{teacher.iname}} {{teacher.sname}}</h3>
+            <p>{{teacher.status}}</p>
+        </div>
+        <hr>
+    {% endfor %}
+{% endblock content %}
